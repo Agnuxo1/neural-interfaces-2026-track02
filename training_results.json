@@ -1,0 +1,89 @@
+{
+  "seed": 20261031,
+  "study": "Dreyer2026Proteus/NEMAR nm000290 v1.0.0",
+  "protocol": "official neuralbench _motor_imagery_stream; cross-subject split",
+  "train_subjects": [
+    0,
+    1,
+    2,
+    5,
+    6,
+    9
+  ],
+  "val_subjects": [
+    4,
+    7
+  ],
+  "test_subjects": [
+    3,
+    8
+  ],
+  "train_rows": 1521,
+  "validation_rows": 379,
+  "test_rows": 755,
+  "features": 492,
+  "validation_candidates": [
+    {
+      "C": 0.005,
+      "bacc_cell_mean": 0.4491207437275986,
+      "n_cells": 4,
+      "bacc_pooled": 0.4492355122276382,
+      "n_examples": 379
+    },
+    {
+      "C": 0.05,
+      "bacc_cell_mean": 0.4434363799283154,
+      "n_cells": 4,
+      "bacc_pooled": 0.4439861683956172,
+      "n_examples": 379
+    },
+    {
+      "C": 0.5,
+      "bacc_cell_mean": 0.401008064516129,
+      "n_cells": 4,
+      "bacc_pooled": 0.40163729533808273,
+      "n_examples": 379
+    },
+    {
+      "C": 5.0,
+      "bacc_cell_mean": 0.39345318100358423,
+      "n_cells": 4,
+      "bacc_pooled": 0.3936799566720826,
+      "n_examples": 379
+    }
+  ],
+  "selected_validation": {
+    "C": 0.005,
+    "bacc_cell_mean": 0.4491207437275986,
+    "n_cells": 4,
+    "bacc_pooled": 0.4492355122276382,
+    "n_examples": 379
+  },
+  "heldout_test": {
+    "bacc_cell_mean": 0.37535842293906807,
+    "n_cells": 8,
+    "bacc_pooled": 0.3739637966940879,
+    "n_examples": 755
+  },
+  "test_confusion_matrix": [
+    [
+      183,
+      14,
+      52
+    ],
+    [
+      166,
+      36,
+      50
+    ],
+    [
+      177,
+      15,
+      62
+    ]
+  ],
+  "elapsed_seconds": 6.88,
+  "source": "D:/PROJECTS/.cognition/concursos-24h/chatgpt/track02_model/submission.py",
+  "submission_zip": "D:\\PROJECTS\\.cognition\\concursos-24h\\chatgpt\\track02_model\\Agnuxo_SpectralBCI_Track02.zip",
+  "submission_zip_sha256": "d5a1f2bef886fcd775b5a41338612f016087f0c6a4b321dc3ef33e27987de0cd"
+}

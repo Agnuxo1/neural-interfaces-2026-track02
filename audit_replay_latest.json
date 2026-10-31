@@ -1,0 +1,46 @@
+{
+  "seed": 20261031,
+  "zip_sha256": "d5a1f2bef886fcd775b5a41338612f016087f0c6a4b321dc3ef33e27987de0cd",
+  "tests": [
+    {
+      "name": "T1_exact_zip_contract_and_weight_safety",
+      "sha256": "d5a1f2bef886fcd775b5a41338612f016087f0c6a4b321dc3ef33e27987de0cd",
+      "members": [
+        "submission.py",
+        "weights.npz"
+      ],
+      "classes": [
+        0,
+        1,
+        2
+      ],
+      "feature_dimension": 492,
+      "finite": true,
+      "coefficient_shape": [
+        3,
+        492
+      ],
+      "pass": true
+    },
+    {
+      "name": "T2_batch_vs_single_stream_prediction_equivalence",
+      "windows": 30,
+      "disagreements": 0,
+      "pass": true
+    },
+    {
+      "name": "T3_no_future_window_contamination",
+      "prefix_windows": 11,
+      "disagreements": 0,
+      "pass": true
+    },
+    {
+      "name": "T4_finite_class_prediction_on_malformed_signals",
+      "all_finite_and_in_class": true,
+      "exceptions": [],
+      "pass": true
+    }
+  ],
+  "pass": true,
+  "note": "No private test data used. Bootstrap is over eight public subject×session×context cells; CI does not establish official leaderboard rank."
+}

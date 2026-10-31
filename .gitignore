@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+*.log
+data/
+2026-competition/
+train_features.npz
+val_features.npz
+test_features.npz
+*.edf
+*.set
+*.fdt
+*.bdf
