@@ -1,0 +1,23 @@
+{
+  "competition_id": 17982,
+  "submission_id": 1044841,
+  "phase": "Sealed Final Phase",
+  "status": "Finished",
+  "official_displayed_score": "0.458",
+  "metric": "cell-averaged balanced accuracy",
+  "score_display_precision": "3 decimals; unrounded value unobserved",
+  "submitted_at_utc_minute": "2026-11-09T18:55Z",
+  "timestamp_precision": "minute",
+  "candidate_sha256": "08c3effa375b93401f60beb65feb8f3a8d739db0652c7785fc616a969a7b3a45",
+  "candidate_bytes": 25060,
+  "model_code_and_weights_unchanged": true,
+  "new_training": false,
+  "warmup_separate": {
+    "id": 1023163,
+    "displayed_score": "0.38"
+  },
+  "rank": null,
+  "jury_selection_prize": "unknown",
+  "primary_receipt": "Authenticated platform evidence retained privately; no private captures or receipt payload published.",
+  "official_competition": "https://www.codabench.org/competitions/17982/"
+}

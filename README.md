@@ -1,3 +1,15 @@
+## Status update — 9 November 2026
+
+The frozen Spectral BCI Decoder has now completed the official **Track 02 Sealed Final Phase** evaluation: submission **1044841**, status **Finished**, displayed cell-averaged balanced accuracy **0.458**. The platform shows one submission used out of five for this phase. The authenticated receipt and captures are retained privately.
+
+The [exact scored reference ZIP](releases/20261109/Agnuxo_SpectralBCI_Track02_sealed_reference_20261109.zip) is 25,060 bytes, SHA-256 08c3effa375b93401f60beb65feb8f3a8d739db0652c7785fc616a969a7b3a45. Its inference source and trained weights are byte-for-byte identical to the earlier warm-up package; only the [method and data/compute declaration](releases/20261109/METHOD.md), MIT licence and citation metadata were added. Three new checks used the actual current Solver and Objective classes on CPU with synthetic fixtures; a separate positive control distinguished cell, session and pooled scoring. Recovery required no retraining or new access to study EEG or feature caches.
+
+The historical **0.38 warm-up** result below remains a separate observation on a different evaluation cohort. The two phase scores do not measure a performance improvement. Final ranking, reproducibility audit, selection and prizes are unverified. The earlier text and all figures below are preserved in full as the development record.
+
+The executable input is four seconds (41 channels,480 samples at120Hz); spectral features use one Hann-tapered FFT for each window.
+
+---
+
 <div align="center">
 
 <img src="docs/readme/01-banner.gif" alt="Spectral BCI Decoder: six EEG frequency bands rising and falling under a spectrum" width="100%">
