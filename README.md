@@ -1,3 +1,7 @@
+<!-- impact-note:start -->
+<sub><strong>Efficiency and practical value.</strong> A deterministic spectral extractor and a multinomial linear classifier provide an interpretable EEG baseline with 492 features, making inspection and reproduction more accessible than an opaque end-to-end pipeline. Frozen scaling and disjoint participant groups strengthen the evaluation design. The documented warm-up result establishes this bounded experiment, while comparative runtime and deployment benefits remain to be measured. See the <a href="#method">method</a>.</sub>
+<!-- impact-note:end -->
+
 ## Status update — 9 November 2026
 
 The frozen Spectral BCI Decoder has now completed the official **Track 02 Sealed Final Phase** evaluation: submission **1044841**, status **Finished**, displayed cell-averaged balanced accuracy **0.458**. The platform shows one submission used out of five for this phase. The authenticated receipt and captures are retained privately.
